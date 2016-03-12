@@ -3,6 +3,9 @@ Created on 26.02.2016
 
 @author: Masus04
 '''
-import math
+import numpy
+x=[[numpy.array([1])],[numpy.array([1])],[numpy.array([1])]]
+print( x )
 
-print(range(10)[:0])
+x[0].append(numpy.array([1]))
+print(x)
